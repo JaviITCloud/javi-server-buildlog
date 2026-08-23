@@ -10,14 +10,14 @@
 
 ---
 
-## Profile at a glance
+## At a glance
 
 | | |
 |---|---|
 | **Current focus** | Linux · Systems · Networking |
-| **Hands-on environment** | `javi-server` · Ubuntu Server |
-| **Approach** | Practical learning · troubleshooting · documentation |
-| **Long-term direction** | Infrastructure → Cloud |
+| **Laboratory** | `javi-server` · Ubuntu Server |
+| **Approach** | Hands-on practice · troubleshooting · documentation |
+| **Direction** | Infrastructure → Cloud |
 | **Build log** | Chronological · real dates · real work |
 
 > **This repository documents what I actually do, not what I claim to know.**
@@ -26,9 +26,9 @@
 
 ## About
 
-I started building my IT foundations in **January 2026**, studying Linux and networking through Cisco Networking Academy and complementary hands-on practice.
+I started building my IT foundations in **January 2026**, studying Linux and networking through Cisco Networking Academy and continuing with hands-on practice.
 
-Since then, I have developed a solid foundation in networking and a growing understanding of Linux through regular work with Ubuntu Server. I am now turning that knowledge into practical experience by building, administering and troubleshooting a real laboratory environment.
+I have developed a solid foundation in networking and a growing understanding of Linux through regular work with Ubuntu Server. I am now turning that foundation into practical experience by building, administering and troubleshooting a real laboratory environment.
 
 My long-term objective is to progress from systems and infrastructure fundamentals into **Cloud engineering**.
 
@@ -37,13 +37,13 @@ My long-term objective is to progress from systems and infrastructure fundamenta
 ## Current focus
 
 **Linux & Systems**  
-Building practical understanding of Linux administration, system behaviour, the command line and core server concepts through Ubuntu Server.
+Building practical understanding of Linux administration, system behaviour and core server concepts through Ubuntu Server.
 
 **Networking**  
 Building on my existing networking foundation through continued practical work and troubleshooting.
 
 **Infrastructure**  
-Progressively moving from individual concepts towards systems, services, security, storage, automation and virtualised environments.
+Progressively moving towards systems, services, security, storage, automation and virtualised environments.
 
 **Cloud**  
 The long-term direction of my training. The current priority is building strong systems and networking fundamentals before moving deeper into Cloud.
@@ -52,14 +52,16 @@ The long-term direction of my training. The current priority is building strong 
 
 ## Laboratory
 
-**`javi-server`** — primary physical laboratory server
+### `javi-server`
+
+**Primary physical laboratory server**
 
 - Ubuntu Server
 - Hands-on administration and experimentation
 - Troubleshooting and verification
-- Virtual machines used when isolation is appropriate
+- Virtual machines when isolation is appropriate
 
-`javi-server` is a real physical machine. Experiments that could unnecessarily affect the physical server or its data are isolated when possible.
+`javi-server` is a real physical machine. Experiments that could unnecessarily affect the server or its data are isolated when possible.
 
 ---
 
@@ -85,7 +87,7 @@ Solution
 Verification
 ```
 
-This is especially important for troubleshooting. Failed attempts and the reasoning used to solve problems are part of the technical record.
+This makes technical decisions, failed attempts and troubleshooting part of the record instead of hiding them behind a final result.
 
 ---
 
@@ -103,7 +105,7 @@ Future entries will be added only when they represent real work, meaningful lear
 
 ---
 
-## What will matter in this portfolio
+## What this portfolio will demonstrate
 
 As the laboratory and my experience grow, the focus will move towards work that demonstrates practical capability rather than basic exercises.
 

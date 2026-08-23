@@ -1,136 +1,178 @@
 # javi-server-buildlog
 
-> A practical record of my IT training, hands-on learning and laboratory work.
+### IT • Infrastructure • Cloud
 
-## About this project
-
-`javi-server-buildlog` documents my progression while building practical knowledge and experience in IT.
-
-The project combines structured learning with hands-on work in my own laboratory. I use the laboratory to practise concepts, configure systems, troubleshoot problems and document what I actually learn along the way.
-
-The central system is **`javi-server`**, a real Linux server that forms the foundation of my current laboratory work.
-
-The long-term goal of my training is to develop the knowledge and practical skills needed to work with **IT infrastructure and Cloud technologies**.
+> Building practical IT skills through hands-on learning, a real laboratory and documented problem solving.
 
 ---
 
-## What you will find here
+## 👋 What is this?
 
-This repository is a record of my learning and practical work, including areas such as:
+This is my technical learning portfolio.
 
-- Linux and system administration
-- Networking
-- Command-line tools and scripting
-- Users, groups and permissions
-- Processes and services
-- System configuration
-- SSH and server security
-- Logs and troubleshooting
-- Storage and filesystems
-- Backups and recovery
-- Automation
-- Virtualization
-- Windows Server and Active Directory
-- Infrastructure and security
-- Cloud technologies as my training progresses
+I am building my foundations in **Linux, systems and networking**, applying what I learn in a real laboratory and progressively moving towards **infrastructure and Cloud**.
 
-The list describes the areas I am working towards. It is **not a claim that I already master every topic listed**.
+The main system is `javi-server`, a real Linux server used for hands-on administration, experimentation and troubleshooting.
 
-The dated build log is the source of truth for what I have actually practised and documented.
+**The point of this repository is simple:** show the work, the decisions, the problems and the progression — not a list of commands I have memorised.
 
 ---
 
-## The laboratory
+## 🧭 Learning path
 
-| Component | Information |
+```text
+IT foundations
+      ↓
+Linux & Systems
+      ↓
+Networking
+      ↓
+Automation & Infrastructure
+      ↓
+Virtualisation
+      ↓
+Cloud
+```
+
+This is a long-term progression. The repository reflects where I actually am, not where I eventually want to be.
+
+---
+
+## 🖥️ Laboratory
+
+| | |
 |---|---|
-| Main laboratory server | `javi-server` |
-| Operating system | Ubuntu Server |
-| Additional environments | Virtual machines when required for safe experimentation |
+| **Main system** | `javi-server` |
+| **OS** | Ubuntu Server |
+| **Environment** | Physical server + VMs when required |
+| **Purpose** | Learning, experimentation, administration & troubleshooting |
 
-`javi-server` is my real physical laboratory system. Virtual machines are used when an isolated environment is more appropriate or when an experiment could unnecessarily affect the physical server.
+`javi-server` is a real physical machine. When an experiment could put the server or its data at unnecessary risk, an isolated virtual machine is preferred.
 
 ---
 
-## How I document my learning
+## 🔧 What I work on
 
-The project is organised chronologically by **date**, rather than by course week or roadmap stage.
+<table>
+<tr>
+<td width="50%">
+
+**Systems**
+
+Linux · administration · services · permissions · storage · backups
+
+</td>
+<td width="50%">
+
+**Networking**
+
+TCP/IP · addressing · routing · DNS · SSH · troubleshooting
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Automation**
+
+Bash · scripting · Git · repeatable administration
+
+</td>
+<td>
+
+**Infrastructure → Cloud**
+
+Virtualisation · Windows Server · Active Directory · Cloud technologies
+
+</td>
+</tr>
+</table>
+
+> These are areas of training, not a claim that I already master every technology listed. The evidence is in the build log.
+
+---
+
+## 🧪 What makes this different
+
+I am not building a polished environment first and writing about it afterwards.
+
+The repository grows alongside the laboratory.
+
+When something is worth documenting, I capture:
+
+**Goal → Initial state → Implementation → Problem → Diagnosis → Result → Verification**
+
+Failures are useful. Troubleshooting is part of the learning process, not something to hide.
+
+---
+
+## 📅 Build log
+
+The detailed history is organised by **real dates**, not by course chapters or artificial project phases.
 
 ```text
 buildlog/
-└── YYYY/
+└── 2026/
     └── MM/
         └── DD-MM-YYYY.md
 ```
 
-Each entry documents the work that was actually performed on that date.
+Each entry represents work that actually happened in the laboratory.
 
-Depending on the task, an entry may include:
+### Recent work
 
-1. What I was trying to learn or accomplish
-2. Initial state
-3. Work performed
-4. Commands and configuration
-5. Problems encountered
-6. Troubleshooting process
-7. Final result
-8. Verification
-9. What I learned
+| Date | Focus |
+|---|---|
+| — | Build log starting point |
 
-The documentation will become more detailed as the complexity of the laboratory increases.
+> This section will be populated with real entries as the project progresses. No invented projects, achievements or experience are added for presentation purposes.
 
 ---
 
-## Current stage
+## 📚 Documentation
 
-I am currently in the early stages of my IT training and building my foundations in Linux, systems and networking.
-
-The laboratory and this repository will evolve progressively as my knowledge and practical experience grow.
-
-The objective is not to present a finished environment from day one, but to document the progression from a basic starting point towards more advanced infrastructure and Cloud work.
-
----
-
-## Repository structure
+As the laboratory grows, supporting material will be organised into:
 
 ```text
-.
-├── README.md
-├── buildlog/
-│   └── YYYY/MM/
-├── documentation/
-├── scripts/
-├── configs/
-├── diagrams/
-└── .gitignore
+ documentation/
+ ├── architecture/
+ ├── network/
+ ├── services/
+ ├── storage/
+ ├── security/
+ └── troubleshooting/
 ```
 
-Directories will be added and populated when there is real material to document. The repository is intentionally kept simple while the laboratory is still in its early stages.
+Scripts, configuration examples and diagrams will be added when they represent real work from the laboratory.
 
 ---
 
-## Principles
+## 🎯 Long-term direction
 
-- **Real work first:** documentation reflects work actually performed.
-- **No invented infrastructure:** technical details are only documented when they are known and verified.
-- **Learning is part of the project:** mistakes, failed attempts and troubleshooting are valuable parts of the record.
-- **Security matters:** credentials, private keys and other secrets are never committed.
-- **Progressive complexity:** the laboratory grows as my skills grow.
-- **Practical learning:** whenever possible, concepts are reinforced through hands-on work.
-- **Continuous improvement:** documentation and infrastructure are improved as I learn better ways to do things.
+My goal is to progress from strong IT fundamentals into **infrastructure and Cloud engineering**.
 
----
+This repository is the practical record of that progression.
 
-## Long-term direction
+I want the final result to demonstrate something more valuable than a technology checklist:
 
-My training is progressing from foundational IT knowledge towards systems administration, infrastructure and eventually Cloud technologies.
-
-This repository is intended to show that progression through real hands-on work rather than through a static list of technologies.
+> **the ability to learn, build, troubleshoot, document and progressively operate real infrastructure.**
 
 ---
 
-## Build log
+## 🔒 Principles
 
-The detailed history lives under [`buildlog/`](buildlog/).
+- **Real work over decoration**
+- **Evidence over claims**
+- **Troubleshooting over memorisation**
+- **Security by default**
+- **Clear documentation**
+- **Progressive complexity**
+- **No secrets committed to the repository**
 
-Each dated entry represents actual work performed during the project. The structure of the training that guides my learning may be referenced inside individual entries when useful, but **the portfolio itself is organised around the work and its chronology**.
+---
+
+## Repository
+
+**[`javi-server-buildlog`](https://github.com/JaviITCloud/javi-server-buildlog)**
+
+Built progressively from a basic starting point.
